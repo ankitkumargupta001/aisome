@@ -50,7 +50,7 @@ const Hero = () => {
           <span className="orange_gradient">Aisome AI</span>
         </h1>
 
-        <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.4 }} className={`desc mt-6 text-center w-full ${theme === "dark" ? "text-gray-300" : ""}`}>
+        <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.4 }} className={`desc mt-6 text-center mx-auto ${theme === "dark" ? "text-gray-300" : ""}`}>
           Transform any article into concise, actionable insights using GPT-3.5. Get intelligent summaries, extract key points, and export your content in multiple formats—all in seconds.
         </motion.h2>
 
